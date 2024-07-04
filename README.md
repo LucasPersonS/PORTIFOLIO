@@ -14,4 +14,4 @@ Opa tudo bom? Bem vindo ao meu projeto de portfólio.
 ## Feito por:
 ### Lucas Servollo
 
-### Linkedin: https://www.linkedin.com/in/lucas-person-servollo-3a4ab7296/
+### Linkedin: https://www.linkedin.com/in/lservollo
