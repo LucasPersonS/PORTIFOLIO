@@ -4,22 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-     <header></header>
-     <main class="apresentacao">
-        <section class="apresentacao__conteudo">
-            <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível <strong class="titulo-destaque">com um Front-end de qualidade!</strong></h1>
-            <p class="apresentacao__conteudo__texto">Opa, eu sou o Lucas Person. Sou um Programador na área de Front-End, com conhecimento em HTML, CSS, JavaScript, ReactJS e diversas outras ferramentas. Estudo na FIAP Escola de Tecnologia. Bora conversar?
-            </p>
-            <div class="apresentacao__links">
-                <a class="apresentacao__links__link" href="https://instagram.com/DEVLups">Instagram</a>
-                <a class="apresentacao__links__link" href="https://github.com/LucasPersonS">Linkedin</a>
-                <a class="apresentacao__links__link" href="https://github.com/LucasPersonS">Github</a>
-            </div>
-        </section>
-        <img src="imagem.png" alt="Foto Lucas Person Desenvolvedor">
-     <footer></footer>
+    <div class="conteudo">
+        <header class="cabecalho">
+            <nav class="cabecalho__menu">
+                <a class="cabecalho__menu__link" href="index.html">Home</a>
+                <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+            </nav>
+        </header>
+        <main class="apresentacao">
+            <section class="apresentacao__conteudo">
+                <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível <strong class="titulo-destaque">com um Front-end de qualidade!</strong></h1>
+                <p class="apresentacao__conteudo__texto">Opa, eu sou o Lucas Person. Sou um Programador na área de Front-End, com conhecimento em HTML, CSS, JavaScript, ReactJS e diversas outras ferramentas. Estudo na FIAP Escola de Tecnologia. Bora conversar?
+                </p>
+                <div class="apresentacao__links">
+                    <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
+                    <a class="apresentacao__links__" href="https://github.com/LucasPersonS">
+                        <i class="fa-brands fa-github"></i>
+                        Github
+                    </a>
+                    <a class="apresentacao__links__link" href="https://www.linkedin.com/in/lucasperson">
+                        <i class="fa-brands fa-linkedin"></i>
+                        Linkedin
+                    </a>
+                    <a class="apresentacao__links__link" href="https://instagram.com/lucass.person">
+                        <i class="fa-brands fa-instagram"></i>
+                        Instagram
+                    </a>
+                </div>
+            </section>
+            <img class="apresentacao__imagem" src="./assets/imagem.png" alt="Foto Lucas Person Desenvolvedor">
+        </main>
+    </div>
+    <footer class="rodape">
+        <p>&copy; 2024 Todos Direitos Reservados</p>
+    </footer>
 </body>
 </html>
